@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int i,j,n=4;
+    int k,space;
+    for(i=0;i<4;i++){
+        for(space=0;space<n-(i+1);space++){
+            cout<<" ";
+
+        }
+        int a=1;
+        for(j=0;j<i+1;j++){
+            cout<<a;
+            a++;
+        }
+        for(k=i;k>0;k--){
+            cout<<k;
+        }
+        cout<<endl;
+    }
+  }
+
+  OUtput:
+     1
+    121
+   12321
+  1234321
+
